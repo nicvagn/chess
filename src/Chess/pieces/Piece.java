@@ -1,4 +1,4 @@
-/*
+/**
  * @Piece.java    V0.1    2023-10-13 by Nicolas Vaagen
  * 
  *  This program is free software: you can redistribute it and/or modify it under the terms of
@@ -15,6 +15,10 @@
 
 package Chess.pieces;
 
+
+/**
+ * a chess piece 
+ */
 public interface Piece {
 
     

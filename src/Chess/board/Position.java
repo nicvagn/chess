@@ -1,4 +1,4 @@
-/*
+/**
  * @Position.java    V0.1    2023-10-13 by Nicolas Vaagen
  * 
  *  This program is free software: you can redistribute it and/or modify it under the terms of
@@ -16,6 +16,9 @@ package Chess.board;
 
 import Chess.pieces.Piece;
 
+/**
+ * a position on the chessboard
+ */
 public class Position {
     private boolean occupied;
     private String position;
@@ -31,6 +34,4 @@ public class Position {
     public boolean isOccupied(){
         return occupied;
     }
-
-
 }

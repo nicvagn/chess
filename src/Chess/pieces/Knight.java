@@ -1,4 +1,4 @@
-/*
+/**
  * @Knight.java    V0.1    2023-10-13 by Nicolas Vaagen
  * 
  *  This program is free software: you can redistribute it and/or modify it under the terms of
@@ -12,8 +12,12 @@
  *  You should have received a copy of the GNU General Public License along with this
  *  program. If not, see <https://www.gnu.org/licenses/>. 
  */
+
 package Chess.pieces;
 
+/**
+ * a Knight
+ */
 public class Knight {
 
 

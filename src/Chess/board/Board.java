@@ -13,8 +13,11 @@
  *  program. If not, see <https://www.gnu.org/licenses/>. 
  */
 
- package Chess.board;
+package Chess.board;
 
+/**
+ * a Chess Board
+ */
 public class Board {
 	private Position[][] board = new Position[8][8];
 }

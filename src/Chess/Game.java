@@ -13,8 +13,25 @@
  *  program. If not, see <https://www.gnu.org/licenses/>. 
  */
 
- package Chess;
+package Chess;
 
+import Chess.board.*;
+import Chess.pieces.*;
+
+/**
+ * a game of Chess
+ */
 public class Game {
+
+    private Board gBoard; //the main game board
+
+    //white pieces
+
+    //black pieces
+    
+
+    public static void main(String[] args){
+
+    }
     
 }

@@ -1,4 +1,4 @@
-/*
+/**
  * @Bishop.java    V0.1    2023-10-13 by Nicolas Vaagen
  * 
  *  This program is free software: you can redistribute it and/or modify it under the terms of
@@ -13,8 +13,11 @@
  *  program. If not, see <https://www.gnu.org/licenses/>. 
  */
 
- package Chess.pieces;
+package Chess.pieces;
 
+/**
+ * a Bishop
+ */
 public class Bishop {
 
 }
