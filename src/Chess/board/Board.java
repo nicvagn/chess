@@ -1,5 +1,5 @@
 /*
- * @Knight.java    V0.1    2023-10-13 by Nicolas Vaagen
+ * @Board.java    V0.1    2023-10-13 by Nicolas Vaagen
  * 
  *  This program is free software: you can redistribute it and/or modify it under the terms of
  *  the GNU General Public License as published by the Free Software Foundation, either
@@ -12,9 +12,9 @@
  *  You should have received a copy of the GNU General Public License along with this
  *  program. If not, see <https://www.gnu.org/licenses/>. 
  */
-package Chess.pieces;
 
-public class Knight {
+ package Chess.board;
 
-
+public class Board {
+	private Position[][] board = new Position[8][8];
 }
