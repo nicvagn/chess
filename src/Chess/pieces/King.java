@@ -18,7 +18,12 @@ package Chess.pieces;
 /**
  * a King
  */
-public class King {
+public class King extends Piece{
+    private boolean isWhite;
+
+    public King(boolean isWhite){
+        this.isWhite = isWhite;
+    }
 
 
 }

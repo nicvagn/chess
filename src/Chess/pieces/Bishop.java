@@ -18,6 +18,11 @@ package Chess.pieces;
 /**
  * a Bishop
  */
-public class Bishop {
+public class Bishop extends Piece{
+    private boolean isWhite;
+
+    public Bishop(boolean isWhite){
+        this.isWhite = isWhite;
+    }
 
 }

@@ -1,5 +1,5 @@
 /**
- * @Queen.java    V0.1    2023-10-13 by Nicolas Vaagen
+ * @Rook.java    V0.1    2023-10-13 by Nicolas Vaagen
  * 
  *  This program is free software: you can redistribute it and/or modify it under the terms of
  *  the GNU General Public License as published by the Free Software Foundation, either
@@ -16,13 +16,12 @@
 package Chess.pieces;
 
 /**
- * a Queen 
+ * a Knight
  */
-public class Queen extends Piece{
+public class Rook extends Piece{
     private boolean isWhite;
 
-    public Queen(boolean isWhite){
+    public Rook(boolean isWhite){
         this.isWhite = isWhite;
     }
-
 }

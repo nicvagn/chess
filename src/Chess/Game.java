@@ -28,10 +28,12 @@ public class Game {
     //white pieces
 
     //black pieces
-    
 
+    /**
+     * start point
+     * @param args
+     */
     public static void main(String[] args){
 
-    }
-    
+    }   
 }

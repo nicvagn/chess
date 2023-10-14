@@ -18,7 +18,11 @@
 /**
  * a Pawn
  */
-public class Pawn {
+public class Pawn extends Piece{
+    private boolean isWhite;
 
+    public Pawn(boolean isWhite){
+        this.isWhite = isWhite;
+    }
 
 }

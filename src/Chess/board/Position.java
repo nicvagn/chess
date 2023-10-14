@@ -21,17 +21,41 @@ import Chess.pieces.Piece;
  */
 public class Position {
     private boolean occupied;
-    private String position;
+    private Piece piece;
+    private Coordinate coordinate;
 
-    public Position(){
+    /**
+     * construct an empty position
+     * @param coordinateinates
+     */
+    public Position(Coordinate coordinate){
         occupied = false;
+        this.coordinate = coordinate;
     }
 
-    public Position(Piece piece){
+    /**
+     * construct a position with a piece in it
+     * @param piece
+     * @param coordinate
+     */
+    public Position(Piece piece, Coordinate coordinate){
         occupied = true;
+        this.coordinate = coordinate;
     }
 
     public boolean isOccupied(){
         return occupied;
+    }
+
+    public Coordinate getcoordinate(){
+        return coordinate;
+    }
+
+    public Piece getPiece(){
+        return piece;
+    }
+
+    public void setPiece(Piece piece){
+        this.piece = piece;
     }
 }

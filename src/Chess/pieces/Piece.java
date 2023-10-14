@@ -15,11 +15,9 @@
 
 package Chess.pieces;
 
-
 /**
- * a chess piece 
+ * a chess piece
  */
-public interface Piece {
+public class Piece {
 
-    
 }

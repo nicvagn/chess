@@ -18,7 +18,12 @@ package Chess.pieces;
 /**
  * a Knight
  */
-public class Knight {
+public class Knight extends Piece {
+    //is this a white piece?
+    private boolean isWhite;
 
+    public Knight(boolean isWhite){
+        this.isWhite = isWhite;
+    }
 
 }
