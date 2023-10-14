@@ -18,7 +18,6 @@ package Chess.board;
 import Chess.pieces.Bishop;
 import Chess.pieces.King;
 import Chess.pieces.Knight;
-import Chess.pieces.Piece;
 import Chess.pieces.Queen;
 import Chess.pieces.Rook;
 import Chess.pieces.Pawn;
@@ -53,15 +52,6 @@ public class Board {
 		Pawn h2 = new Pawn(true);
 
 		//black pieces
-		Rook a8 = new Rook(false);
-		Knight b8 = new Knight(false);
-		Bishop c8 = new Bishop(false);
-		King d8 = new King(false);
-		Queen e8 = new Queen(false);
-		Bishop f8 = new Bishop(false);
-		Knight g8 = new Knight(false);
-		Rook h8 = new Rook(false);
-
 		Pawn a7 = new Pawn(false);
 		Pawn b7 = new Pawn(false);
 		Pawn c7 = new Pawn(false);
@@ -70,6 +60,15 @@ public class Board {
 		Pawn f7 = new Pawn(false);
 		Pawn g7 = new Pawn(false);
 		Pawn h7 = new Pawn(false);
+		
+		Rook a8 = new Rook(false);
+		Knight b8 = new Knight(false);
+		Bishop c8 = new Bishop(false);
+		King d8 = new King(false);
+		Queen e8 = new Queen(false);
+		Bishop f8 = new Bishop(false);
+		Knight g8 = new Knight(false);
+		Rook h8 = new Rook(false);
 
 		//setup board
 		//1st row
